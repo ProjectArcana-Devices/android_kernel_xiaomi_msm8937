@@ -215,7 +215,7 @@ endchoice
 
 config DEFAULT_HOSTNAME
 	string "Default hostname"
-	default "(none)"
+	default "leeroy@nyenkins"
 	help
 	  This option determines the default system hostname before userspace
 	  calls sethostname(2). The kernel traditionally uses "(none)" here,
